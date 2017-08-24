@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,300,400,600);
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  background-color: #EFEFEF;
+}
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.video-js{
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.vid-container{
+  margin: 0px auto;
+}
+
+.mdl-layout__header{
+  overflow:hidden;
+}
+
+
+.mdl-layout-title{
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+.mdl-layout__content{
+  padding : 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mdl-data-table{
+  a{
+    text-decoration: none;
+  }
+}
+
+
+.demo-card-image{
+  width: 98%;
+}
+
+.demo-card-image.mdl-card {
+  width: 98%;
+  height: 300px;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mdl-textfield__label{
+  color:black;
+}
+
+.mdl-textfield__error{
+  visibility: visible;
+  color:red;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.mdl-button--file {
+  input {
+    cursor: pointer;
+    height: 100%;
+    right: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    z-index: 4;
+  }
+}
+
+.mdl-textfield--file {
+  .mdl-textfield__input {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .mdl-button--file {
+    right: 0;
+  }
+}
+
+
+.auth{
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+
+  .title{
+    font-weight: 100;
+  }
+
+
+
+  .mdl-button{
+    float:right;
+  }
+}
+
+.header{
+  h3{
+    font-weight: 300;
+
+    i{
+      font-size: 26px;
+      color: grey;
+      font-weight: bold;
+      &:hover{
+        color: rgb(103,58,183);
+      }
+    }
+  }
+
+  .btn-link{
+    margin-left: 40px;
+  }
+}
+
+.admin{
+
+  .title{
+    h2{
+      font-weight: 100;
+    }
+  }
+
+  .count{
+    h1{
+      a{
+        font-size: 100px;
+        text-decoration: none;
+        color:black;
+
+        &:hover{
+          color:rgb(103,58,183);
+        }
+      }
+    }
+  }
+
+  .mdl-grid{
+    padding: 0px;
+
+    .mdl-cell{
+      margin: 0px;
+    }
+  }
+
+  .data-form{
+    margin-left: 30px;
+
+    .mdl-button{
+      margin-top: 10px;
+    }
+  }
+}
+
+.content{
+
+  .mdl-card{
+    width: 98%;
+
+    &:hover{
+      background-color: rgb(103,58,183);
+      h1, .mdl-card__supporting-text, .mdl-button{
+        color: white;
+      }
+    }
+
+    .episode{
+      height: 150px;
+    }
+  }
+
+  h1{
+    font-size: 50px;
+    text-align:center;
+    font-weight: 300;
+    color:rgb(103,58,183);
+  }
+
+  .show-all{
+    margin-left: 20px;
+  }
+}
+
