@@ -19,7 +19,7 @@ class AdminController extends Controller
     }
 
     public function getMovies(){
-        $movies = Movie::all();
+        $movies = Movie::orderBy('year', 'DESC')->orderBy('created_at', 'DESC')->get();
         return view('admin.movies')->with('movies', $movies);
     }
 

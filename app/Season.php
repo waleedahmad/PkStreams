@@ -13,6 +13,6 @@ class Season extends Model
     }
 
     public function episodes(){
-        return $this->hasMany('App\Episode', 'season_id', 'id')->orderBy('episode_no', 'ASC');
+        return $this->hasMany('App\Episode', 'season_id', 'id')->orderBy('episode_no', 'DESC');
     }
 }

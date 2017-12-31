@@ -27,8 +27,9 @@
                 <thead>
                 <tr>
                     <th class="mdl-data-table__cell--non-numeric">Name</th>
-                    <th class="mdl-data-table__cell--non-numeric">Added On</th>
                     <th class="mdl-data-table__cell--non-numeric">Year</th>
+                    <th class="mdl-data-table__cell--non-numeric">Added On</th>
+
                     <th class="mdl-data-table__cell--non-numeric">Actions</th>
                 </tr>
                 </thead>

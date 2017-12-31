@@ -15,7 +15,7 @@
     </div>
 
     <div class="mdl-cell mdl-cell--12-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone vid-container">
-        <video class="video-js vjs-big-play-centered" controls preload="auto"  poster="/storage/{{$movie->image_uri}}" data-setup="{}">
+        <video class="video-js vjs-big-play-centered" controls preload="auto"  data-setup='{"fluid": "true", "wmode":"opaque","bgcolor":"#FFFFFF"}' poster="/storage/{{$movie->image_uri}}">
             <source src="{{$movie->video_uri}}" type='video/mp4'>
         </video>
     </div>

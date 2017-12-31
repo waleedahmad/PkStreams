@@ -23,7 +23,7 @@ class AppController extends Controller
     }
 
     public function getMovies(){
-        $movies = Movie::all();
+        $movies = Movie::orderBy('year', 'DESC')->orderBy('created_at', 'DESC')->get();
         return view('movies.index')->with('movies', $movies);
     }
 
