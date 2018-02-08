@@ -27,10 +27,10 @@
 
 
 @section('scripts')
-    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-    <script src="http://vjs.zencdn.net/6.2.4/video.js"></script>
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="https://vjs.zencdn.net/6.2.4/video.js"></script>
 @endSection
 
 @section('style')
-    <link href="http://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/6.2.4/video-js.css" rel="stylesheet">
 @endSection

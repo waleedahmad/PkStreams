@@ -10,7 +10,7 @@
         <!-- Navigation -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
 
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+            {{--<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
                 <label class="mdl-button mdl-js-button mdl-button--icon"
                        for="waterfall-exp">
@@ -20,7 +20,7 @@
                     <input class="mdl-textfield__input" type="text" name="sample"
                            id="waterfall-exp">
                 </div>
-            </div>
+            </div>--}}
 
             <a class="mdl-navigation__link" href="/">Home</a>
             <a class="mdl-navigation__link" href="/shows">TV Shows</a>
